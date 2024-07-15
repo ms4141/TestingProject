@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login Module",
+    "line": 1,
+    "id": "login-module",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-module;verify-user-is-able-to-login-to-demo-website",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify User is able to login to demo website",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User navigate to website",
+            "result": {
+              "status": "passed",
+              "duration": 1093000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User enters the username",
+            "result": {
+              "status": "passed",
+              "duration": 1265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enters the password",
+            "result": {
+              "status": "passed",
+              "duration": 359000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 1431000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user logged in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 812000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
